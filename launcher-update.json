@@ -1,10 +1,11 @@
 {
-    "version":  "1.1.1",
-    "installer":  "https://github.com/CrispCesar/nebula/releases/download/1.1.1/Nebula-Launcher-1.1.1-Setup.exe",
-    "sha256":  "fd2a38b6ddc194f7caecb9a9227d44370bb15017122fc775d3a516ea93d2aef3",
+    "version":  "1.2.0",
+    "installer":  "https://github.com/CrispCesar/nebula/releases/download/1.2.0/Nebula-Launcher-1.2.0-Setup.exe",
+    "sha256":  "bc000ad301edad7d34c32e72a2aa8d0e64385c36188fafeebc007c5dacb8ffef",
     "notes":  [
-                  "Corregida la lectura de manifiestos UTF-8 con BOM",
-                  "Mejor compatibilidad con manifiestos generados desde PowerShell",
-                  "La verificación de archivos vuelve a iniciarse correctamente"
+                  "Soporte para activar la verificación de instancias mediante actualizaciones",
+                  "Lectura y validación remota de integrity.json",
+                  "Cuarentena automática de archivos no autorizados",
+                  "Generador de actualizaciones completas para la primera activación"
               ]
 }
