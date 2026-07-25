@@ -1,11 +1,11 @@
 {
-    "version":  "0.9.0",
-    "installer":  "https://github.com/CrispCesar/nebula/releases/download/0.9.0/Nebula-Launcher-0.9.0-Setup.exe",
-    "sha256":  "80ed463f0c94ef37b075df54c376791fa918d6c0593143046111997ffd599bf9",
+    "version":  "0.9.1",
+    "installer":  "https://github.com/CrispCesar/nebula/releases/download/0.9.1/Nebula-Launcher-0.9.1-Setup.exe",
+    "sha256":  "10782fe45d6c100a9344b096caa241668e9c46a3217125ee8ff69dcebb325877",
     "notes":  [
-                  "Añadido el tiempo jugado por instancia",
-                  "Añadidos registros de sesiones, inicios y última vez jugada",
-                  "Nuevo visor de latest.log, crash reports y errores",
-                  "Exportación y copia de diagnósticos"
+                  "Menú de opciones de las instancias más compacto",
+                  "Desplazamiento interno para acceder cómodamente a todas las opciones",
+                  "Barra de desplazamiento adaptada a la estética de Nebula",
+                  "Mejor adaptación del menú a ventanas pequeñas"
               ]
 }
