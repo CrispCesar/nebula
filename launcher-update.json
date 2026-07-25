@@ -1,12 +1,10 @@
 {
-    "version":  "1.1.0",
-    "installer":  "https://github.com/CrispCesar/nebula/releases/download/1.1.0/Nebula-Launcher-1.1.0-Setup.exe",
-    "sha256":  "a9686a4e8bdb520b891ec448b7a818c146170347d6038faf89c0f80e9d1c2604",
+    "version":  "1.1.1",
+    "installer":  "https://github.com/CrispCesar/nebula/releases/download/1.1.1/Nebula-Launcher-1.1.1-Setup.exe",
+    "sha256":  "fd2a38b6ddc194f7caecb9a9227d44370bb15017122fc775d3a516ea93d2aef3",
     "notes":  [
-                  "Nuevo modo de instancias protegidas",
-                  "Verificación y reparación automática antes de jugar",
-                  "Archivos adicionales trasladados a cuarentena",
-                  "Soporte visual para instancias de desarrollo",
-                  "Las actualizaciones oficiales regeneran la base protegida"
+                  "Corregida la lectura de manifiestos UTF-8 con BOM",
+                  "Mejor compatibilidad con manifiestos generados desde PowerShell",
+                  "La verificación de archivos vuelve a iniciarse correctamente"
               ]
 }
