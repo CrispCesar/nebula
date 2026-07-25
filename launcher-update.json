@@ -1,11 +1,11 @@
 {
-    "version":  "0.9.1",
-    "installer":  "https://github.com/CrispCesar/nebula/releases/download/0.9.1/Nebula-Launcher-0.9.1-Setup.exe",
-    "sha256":  "10782fe45d6c100a9344b096caa241668e9c46a3217125ee8ff69dcebb325877",
+    "version":  "0.9.2",
+    "installer":  "https://github.com/CrispCesar/nebula/releases/download/0.9.2/Nebula-Launcher-0.9.2-Setup.exe",
+    "sha256":  "4d2f9404110ee53df36c146dc7bfcdfa2339577b8e0f9dd954605704997b7b00",
     "notes":  [
-                  "Menú de opciones de las instancias más compacto",
-                  "Desplazamiento interno para acceder cómodamente a todas las opciones",
+                  "Todos los menús admiten desplazamiento vertical",
+                  "Altura máxima reducida para una interfaz más compacta",
                   "Barra de desplazamiento adaptada a la estética de Nebula",
-                  "Mejor adaptación del menú a ventanas pequeñas"
+                  "Mejor adaptación de los menús a ventanas pequeñas"
               ]
 }
