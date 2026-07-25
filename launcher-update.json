@@ -1,10 +1,13 @@
 {
-    "version":  "0.9.3",
-    "installer":  "https://github.com/CrispCesar/nebula/releases/download/0.9.3/Nebula-Launcher-0.9.3-Setup.exe",
-    "sha256":  "b31e55f066c6e2a96e1b911cc4115cd4a077c316cfb327d5eaac6af557672e28",
+    "version":  "1.0.0",
+    "installer":  "https://github.com/CrispCesar/nebula/releases/download/1.0.0/Nebula-Launcher-1.0.0-Setup.exe",
+    "sha256":  "80de6dad097efc6f607896cfd2157bec46e82b843187440063624b3f8d170cf1",
     "notes":  [
-                  "Corregidos los artefactos cuadrados de las esquinas superiores",
-                  "Fondo nativo transparente con esquinas redondeadas limpias",
-                  "La versión del launcher aparece ahora en el menú de ajustes"
+                  "Primera versión estable de Nebula Launcher",
+                  "Progreso real de descargas con velocidad, porcentaje y cancelación",
+                  "Errores interpretados con soluciones y detalles técnicos",
+                  "Gestión de varios perfiles Microsoft y offline",
+                  "Asistente de primera configuración",
+                  "Tiempo jugado, diagnósticos y actualizaciones automáticas"
               ]
 }
