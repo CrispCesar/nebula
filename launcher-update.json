@@ -1,13 +1,12 @@
 {
-    "version":  "1.0.0",
-    "installer":  "https://github.com/CrispCesar/nebula/releases/download/1.0.0/Nebula-Launcher-1.0.0-Setup.exe",
-    "sha256":  "80de6dad097efc6f607896cfd2157bec46e82b843187440063624b3f8d170cf1",
+    "version":  "1.1.0",
+    "installer":  "https://github.com/CrispCesar/nebula/releases/download/1.1.0/Nebula-Launcher-1.1.0-Setup.exe",
+    "sha256":  "9ff510a00a92a68042e51c51510c9005b2c9376a9e4964aa775106014eb5065a",
     "notes":  [
-                  "Primera versión estable de Nebula Launcher",
-                  "Progreso real de descargas con velocidad, porcentaje y cancelación",
-                  "Errores interpretados con soluciones y detalles técnicos",
-                  "Gestión de varios perfiles Microsoft y offline",
-                  "Asistente de primera configuración",
-                  "Tiempo jugado, diagnósticos y actualizaciones automáticas"
+                  "Nuevo modo de instancias protegidas",
+                  "Verificación y reparación automática antes de jugar",
+                  "Archivos adicionales trasladados a cuarentena",
+                  "Soporte visual para instancias de desarrollo",
+                  "Las actualizaciones oficiales regeneran la base protegida"
               ]
 }
