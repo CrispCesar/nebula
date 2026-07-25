@@ -1,7 +1,7 @@
 {
     "version":  "1.1.0",
     "installer":  "https://github.com/CrispCesar/nebula/releases/download/1.1.0/Nebula-Launcher-1.1.0-Setup.exe",
-    "sha256":  "9ff510a00a92a68042e51c51510c9005b2c9376a9e4964aa775106014eb5065a",
+    "sha256":  "a9686a4e8bdb520b891ec448b7a818c146170347d6038faf89c0f80e9d1c2604",
     "notes":  [
                   "Nuevo modo de instancias protegidas",
                   "Verificación y reparación automática antes de jugar",
