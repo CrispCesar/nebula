@@ -1,8 +1,8 @@
 {
-    "version":  "1.2.2",
-    "installer":  "https://github.com/CrispCesar/nebula/releases/download/1.2.2/Nebula-Launcher-1.2.2-Setup.exe",
-    "sha256":  "403c20f1267b72fb9a582202686c09481291f9d93dfd7aa2823e7b1e5708ed44",
+    "version":  "1.2.3",
+    "installer":  "https://github.com/CrispCesar/nebula/releases/download/1.2.3/Nebula-Launcher-1.2.3-Setup.exe",
+    "sha256":  "de136089e9832adb7abb51ce92f69a0985338d3fa4ac287cb5754096fbdebda6",
     "notes":  [
-                  "Corrige la validacion de configuraciones variables y mantiene integrity.json limpio."
+                  "Evita la cache de GitHub al comprobar actualizaciones del launcher."
               ]
 }
