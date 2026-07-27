@@ -1,12 +1,12 @@
 {
-    "version":  "1.2.0",
-    "package":  "https://github.com/CrispCesar/nebula/releases/download/hardcore-1.2.0/update.zip",
-    "sha256":  "6eed8f15cc850e99cd8021451e48eb245c0c5407e3e1e8acfd9d83320b119699",
+    "version":  "1.3.0",
+    "package":  "https://github.com/CrispCesar/nebula/releases/download/hardcore-1.3.0/update.zip",
+    "sha256":  "1d3b19366909584065b7ec83dfd72a4c80b1356923a3f5cb1a2cc4eac45a4527",
     "delete":  [
-
+                   "mods/Animorph-client-1.21.1-1.0.8-SNAPSHOT.jar"
                ],
     "protection":  {
                        "enabled":  true,
-                       "manifest":  "https://github.com/CrispCesar/nebula/releases/download/hardcore-1.2.0/integrity.json"
+                       "manifest":  "https://github.com/CrispCesar/nebula/releases/download/hardcore-1.3.0/integrity.json"
                    }
 }
