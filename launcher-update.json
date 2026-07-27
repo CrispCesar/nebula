@@ -1,10 +1,8 @@
 {
-    "version":  "1.2.1",
-    "installer":  "https://github.com/CrispCesar/nebula/releases/download/1.2.1/Nebula-Launcher-1.2.1-Setup.exe",
-    "sha256":  "475ad0083f07736af94d61bc78a0908aa402b121000525ad82ebee59a69a686f",
+    "version":  "1.2.2",
+    "installer":  "https://github.com/CrispCesar/nebula/releases/download/launcher-1.2.2/Nebula-Launcher-1.2.2-Setup.exe",
+    "sha256":  "403c20f1267b72fb9a582202686c09481291f9d93dfd7aa2823e7b1e5708ed44",
     "notes":  [
-                  "Compatibilidad con archivos de configuración modificables por Minecraft",
-                  "Indigo Renderer ya no bloquea la verificación de instancias",
-                  "Los archivos permitidos se conservan fuera de la cuarentena"
+                  "Corrige la validacion de configuraciones variables y mantiene integrity.json limpio."
               ]
 }
