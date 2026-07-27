@@ -1,6 +1,6 @@
 {
     "version":  "1.2.2",
-    "installer":  "https://github.com/CrispCesar/nebula/releases/download/launcher-1.2.2/Nebula-Launcher-1.2.2-Setup.exe",
+    "installer":  "https://github.com/CrispCesar/nebula/releases/download/1.2.2/Nebula-Launcher-1.2.2-Setup.exe",
     "sha256":  "403c20f1267b72fb9a582202686c09481291f9d93dfd7aa2823e7b1e5708ed44",
     "notes":  [
                   "Corrige la validacion de configuraciones variables y mantiene integrity.json limpio."
