@@ -1,11 +1,10 @@
 {
-    "version":  "1.2.0",
-    "installer":  "https://github.com/CrispCesar/nebula/releases/download/1.2.0/Nebula-Launcher-1.2.0-Setup.exe",
-    "sha256":  "bc000ad301edad7d34c32e72a2aa8d0e64385c36188fafeebc007c5dacb8ffef",
+    "version":  "1.2.1",
+    "installer":  "https://github.com/CrispCesar/nebula/releases/download/1.2.1/Nebula-Launcher-1.2.1-Setup.exe",
+    "sha256":  "475ad0083f07736af94d61bc78a0908aa402b121000525ad82ebee59a69a686f",
     "notes":  [
-                  "Soporte para activar la verificación de instancias mediante actualizaciones",
-                  "Lectura y validación remota de integrity.json",
-                  "Cuarentena automática de archivos no autorizados",
-                  "Generador de actualizaciones completas para la primera activación"
+                  "Compatibilidad con archivos de configuración modificables por Minecraft",
+                  "Indigo Renderer ya no bloquea la verificación de instancias",
+                  "Los archivos permitidos se conservan fuera de la cuarentena"
               ]
 }
