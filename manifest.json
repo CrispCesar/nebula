@@ -1,13 +1,15 @@
 {
-    "version":  "1.3.5",
-    "package":  "https://github.com/CrispCesar/nebula/releases/download/hardcore-1.3.5/update.zip",
-    "sha256":  "ea0c2a2e45ea85a040a310be632e57f1fe4265e57033110b16b9be170b2ec0bc",
+    "version":  "1.3.6",
+    "package":  "https://github.com/CrispCesar/nebula/releases/download/hardcore-1.3.6/update.zip",
+    "sha256":  "445df8f0f33b26ea60958d41145694db3778787d51f8e4b5b45b7850e75165b8",
     "delete":  [
-                   "mods/watermedia-2.1.37.jar",
-                   "mods/.index/animorph-mod.pw.toml"
+                   "mods/Animorph-client-1.21.1-1.0.8-SNAPSHOT.jar",
+                   "mods/.index/animorph-mod.pw.toml",
+                   "mods/HardcoreUtils-1.0.jar",
+                   "mods/watermedia-2.1.37.jar"
                ],
     "protection":  {
                        "enabled":  true,
-                       "manifest":  "https://github.com/CrispCesar/nebula/releases/download/hardcore-1.3.5/integrity.json"
+                       "manifest":  "https://github.com/CrispCesar/nebula/releases/download/hardcore-1.3.6/integrity.json"
                    }
 }
