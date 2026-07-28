@@ -1,8 +1,8 @@
 {
-    "version":  "1.2.5",
-    "installer":  "https://github.com/CrispCesar/nebula/releases/download/1.2.5/Nebula-Launcher-1.2.5-Setup.exe",
-    "sha256":  "f9bc90cb86d3492291265f6736b6dc0a33073a2e1a5466190da70a6c8ef63b01",
+    "version":  "1.2.6",
+    "installer":  "https://github.com/CrispCesar/nebula/releases/download/1.2.6/Nebula-Launcher-1.2.6-Setup.exe",
+    "sha256":  "d1a58db1582f0dd60cc5df773f495146ef2de2509beb25d97ff0b4c0f03c79db",
     "notes":  [
-                  "Detecta nuevas versiones de las instancias aunque el launcher ya estuviera abierto."
+                  "Corrige la interpretacion del estado de actualizacion de las instancias."
               ]
 }
