@@ -1,8 +1,8 @@
 {
-    "version":  "1.2.3",
-    "installer":  "https://github.com/CrispCesar/nebula/releases/download/1.2.3/Nebula-Launcher-1.2.3-Setup.exe",
-    "sha256":  "de136089e9832adb7abb51ce92f69a0985338d3fa4ac287cb5754096fbdebda6",
+    "version":  "1.2.4",
+    "installer":  "https://github.com/CrispCesar/nebula/releases/download/1.2.4/Nebula-Launcher-1.2.4-Setup.exe",
+    "sha256":  "da5f3ce8f2f81a0abfe4379813178f6e4dc23b87a9b364544dbbad126b0a90c0",
     "notes":  [
-                  "Evita la cache de GitHub al comprobar actualizaciones del launcher."
+                  "Versiones de instancia visibles y actualizaciones obligatorias antes de jugar."
               ]
 }
