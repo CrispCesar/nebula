@@ -23,7 +23,7 @@
   <nav class="nav shell" aria-label="Navegación principal">
     <a class="brand" href="#inicio" aria-label="Nebula, inicio"><img src="assets/nebula-logo.png" alt=""><span>NEBULA</span></a>
     <div class="nav-links"><a href="#funciones">Funciones</a><a href="#como-funciona">Cómo funciona</a><a href="#seguridad">Para eventos</a></div>
-    <a class="button button-small" href="https://github.com/CrispCesar/nebula/releases/download/1.2.6/Nebula-Launcher-1.2.6-Setup.exe"><span class="button-icon">↓</span><span>Descargar</span></a>
+    <a class="button button-small" data-nebula-download href="https://github.com/CrispCesar/nebula/releases"><span class="button-icon">↓</span><span>Descargar</span></a>
   </nav>
 
   <section class="hero shell" id="inicio">
@@ -32,10 +32,10 @@
       <h1>Tu Minecraft.<br><span>Siempre listo.</span></h1>
       <p class="hero-lead">Instala modpacks, recibe actualizaciones y juega con tus amigos sin preocuparte por archivos, versiones ni configuraciones.</p>
       <div class="hero-actions">
-        <a class="button button-primary" href="https://github.com/CrispCesar/nebula/releases/download/1.2.6/Nebula-Launcher-1.2.6-Setup.exe"><span class="button-icon">↓</span><span>Descargar para Windows</span></a>
+        <a class="button button-primary" data-nebula-download href="https://github.com/CrispCesar/nebula/releases"><span class="button-icon">↓</span><span>Descargar para Windows</span></a>
         <a class="button button-ghost" href="#como-funciona">Ver cómo funciona <span>→</span></a>
       </div>
-      <div class="download-meta"><span><b>✓</b> Versión 1.2.6</span><span><b>✓</b> Windows 10/11</span><span><b>✓</b> Gratis</span></div>
+      <div class="download-meta"><span><b>✓</b> Versión <span data-nebula-version>más reciente</span></span><span><b>✓</b> Windows 10/11</span><span><b>✓</b> Gratis</span></div>
     </div>
 
     <div class="launcher-stage" aria-label="Vista previa de Nebula Launcher">
@@ -89,10 +89,29 @@
   <section class="download-section shell"><div class="download-panel">
     <div class="download-orbit"><span><img src="assets/nebula-icon.png" alt=""></span></div>
     <div><span class="kicker">¿LISTO PARA ENTRAR?</span><h2>Tu próxima instancia empieza aquí.</h2><p>Descarga Nebula gratis y deja que el launcher se encargue de mantener todo preparado.</p></div>
-    <div class="download-side"><a class="button button-primary" href="https://github.com/CrispCesar/nebula/releases/download/1.2.6/Nebula-Launcher-1.2.6-Setup.exe"><span class="button-icon">↓</span><span>Descargar para Windows</span></a><a href="https://github.com/CrispCesar/nebula/releases">Ver todas las versiones →</a></div>
+    <div class="download-side"><a class="button button-primary" data-nebula-download href="https://github.com/CrispCesar/nebula/releases"><span class="button-icon">↓</span><span>Descargar para Windows</span></a><a href="https://github.com/CrispCesar/nebula/releases">Ver todas las versiones →</a></div>
   </div></section>
 
   <footer class="shell footer"><a class="brand" href="#inicio"><img src="assets/nebula-logo.png" alt=""><span>NEBULA</span></a><p>Un launcher independiente para compartir y disfrutar Minecraft con tus amigos.</p><div><a href="https://github.com/CrispCesar/nebula/releases">GitHub</a><a href="#funciones">Funciones</a><a href="#como-funciona">Instalación</a></div></footer>
 </main>
+<script>
+  (() => {
+    const manifestUrl = "https://raw.githubusercontent.com/CrispCesar/nebula/main/launcher-update.json";
+    fetch(`${manifestUrl}?web_cache=${Date.now()}`, { cache: "no-store" })
+      .then(response => {
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        return response.json();
+      })
+      .then(manifest => {
+        if (!manifest || typeof manifest.version !== "string" || !/^https:\/\//.test(manifest.installer || "")) return;
+        document.querySelectorAll("[data-nebula-download]").forEach(link => {
+          link.href = manifest.installer;
+          link.setAttribute("download", "");
+        });
+        document.querySelectorAll("[data-nebula-version]").forEach(label => label.textContent = manifest.version);
+      })
+      .catch(error => console.warn("No se pudo consultar la última versión de Nebula", error));
+  })();
+</script>
 </body>
 </html>
