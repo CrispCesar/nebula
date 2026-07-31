@@ -1,5 +1,5 @@
 {
-    "version":  "1.3.2",
+    "version":  "1.3.3",
     "installer":  "https://github.com/CrispCesar/nebula/releases/download/1.3.2/Nebula-Launcher-1.3.2-Setup.exe",
     "sha256":  "a969d7a34d3fb41dc854ca47abbe1a074359a3aa313c9156b2f4302751bd2835",
     "notes":  [
