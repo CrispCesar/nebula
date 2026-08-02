@@ -1,8 +1,8 @@
 {
-  "version": "1.3.17",
-  "package": "https://github.com/CrispCesar/nebula/releases/download/hardcore-1.3.17/update.zip",
+  "version": "1.3.18",
+  "package": "https://github.com/CrispCesar/nebula/releases/download/hardcore-1.3.18/update.zip",
   "parts": [],
-  "sha256": "d4ee022b4c7a4767fda0848e155c0a7aec888d957bd578384880d53c4713a727",
+  "sha256": "4008e38d1931be57ec01238bf7b7df13786ee44dcee2a357854b78975d7ffdc3",
   "delete": [
     "mods/Animorph-client-1.21.1-1.0.8-SNAPSHOT.jar",
     "mods/.index/animorph-mod.pw.toml",
@@ -17,10 +17,11 @@
     "mods/HardcoreUtils-1.2.7.jar",
     "mods/HardcoreUtils-1.2.8.jar",
     "mods/HardcoreUtils-1.2.9.jar",
+    "mods/HardcoreUtils-1.3.0.jar",
     "mods/watermedia-2.1.37.jar"
   ],
   "protection": {
     "enabled": true,
-    "manifest": "https://github.com/CrispCesar/nebula/releases/download/hardcore-1.3.17/integrity.json"
+    "manifest": "https://github.com/CrispCesar/nebula/releases/download/hardcore-1.3.18/integrity.json"
   }
 }
