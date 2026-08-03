@@ -1,7 +1,7 @@
 {
-    "version":  "1.4.3",
-    "installer":  "https://github.com/CrispCesar/nebula/releases/download/1.4.3/Nebula-Launcher-1.4.3-Setup.exe",
-    "sha256":  "349AF3DFCBA2CE048B28E65302D1ABE72F5E6A73F837B316330C000577BFC389",
+    "version":  "1.5.2",
+    "installer":  "https://github.com/CrispCesar/nebula/releases/download/1.5.2/Nebula-Launcher-1.5.2-Setup.exe",
+    "sha256":  "C23BA6B21AE84943E928BE47E03265C2EF386F601FF80F10EC4E712E8C432AF3",
     "notes":  [
               ]
 }
