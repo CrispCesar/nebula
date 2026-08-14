@@ -1,7 +1,7 @@
 {
-  "version": "1.3.23",
-  "package": "https://github.com/CrispCesar/nebula/releases/download/hardcore-1.3.23/update.zip",
-  "sha256": "c77a81df5247826a3fd79a04f55dd66a762d77b14e3b18d8ebad252813e718a9",
+  "version": "1.3.24",
+  "package": "https://github.com/CrispCesar/nebula/releases/download/hardcore-1.3.24/update.zip",
+  "sha256": "dc882754b8b680205e453bd562d34c9d93f86cef68c3769d95228e21d2b166ec",
   "delete": [],
   "managedMods": true
 }
